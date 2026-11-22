@@ -21,7 +21,7 @@ import "./Home.css";
 
 // Replace this with your actual company number.
 // Format: 91 followed by your 10-digit mobile number.
-const CONTACT_NUMBER = "91XXXXXXXXXX";
+const CONTACT_NUMBER = "919822389582";
 
 const WHATSAPP_LINK = `https://wa.me/${CONTACT_NUMBER}`;
 const PHONE_LINK = `tel:+${CONTACT_NUMBER}`;
@@ -425,8 +425,8 @@ function Home() {
               <div className="contact-detail-item">
                 <div className="contact-detail-icon"><MessageCircle size={21} /></div>
                 <div>
-                  <span>WhatsApp / Contact Number</span>
-                  <a href={PHONE_LINK}>+{CONTACT_NUMBER}</a>
+                  <span>Contact Number</span>
+                 <a href={PHONE_LINK}>+91 9822389582</a>
                 </div>
               </div>
 
